@@ -33,10 +33,10 @@
 	- 按 **/** 后，输入要查找的字符串内容，可以对文件进行向下查询，如果存在多个结果可以按 **n** 调到下一个结果出
 	- 按 **？** 后，输入要查找的字符串内容，可以对文件进行向上查询，如果存在多个结果可以按 **n** 调到下一个结果出
 - `shutdown`
-    - `shutdown -hnow`，立即关机
-    - `shutdown -h+10`，10 分钟后关机
-    - `shutdown -h23:30`，23:30 关机
-    - `shutdown -rnew`，立即重启
+    - `shutdown -h now`，立即关机
+    - `shutdown -h +10`，10 分钟后关机
+    - `shutdown -h 23:30`，23:30 关机
+    - `shutdown -r now`，立即重启
 - `poweroff`，立即关机（常用）
 - `reboot`，立即重启（常用）
 - `zip mytest.zip /opt/test/`，把 /opt 目录下的 test/ 目录进行压缩，压缩成一个名叫 mytest 的 zip 文件
